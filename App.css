@@ -1,0 +1,125 @@
+.head{
+    text-align: center;
+    text-decoration: underline;
+    border-radius: 100px;
+    padding: 10px;
+    margin: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+}
+fieldset{
+    background-color: blue;
+    color: white;
+    padding: 50px;
+    margin: 10px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15;
+    /* text-decoration: underline; */
+}
+
+p{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
+    
+    background-color: yellow;
+    border-radius: 100px;
+    color: green;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+h4{
+    margin-left: -30px;
+    word-spacing: 5px;
+}
+
+input{
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: 900;
+    box-shadow: 0px 0px 10px 0px rgb(255, 0, 234);
+}
+
+button{
+    cursor: pointer;
+    width:360px;
+    height: 50px;
+    background-color: wheat;
+    border: none;
+    margin-left: 440px;
+    color: aqua;
+    font-weight: 900;
+    border: 3px solid aqua;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    box-shadow: 0px 0px 10px 0px rgb(2, 225, 255);
+    padding: 10px;
+    /* margin: 10px; */
+    margin-left: 440;
+    border-radius: 100px;
+}
+button:hover{
+    width:360px;
+    height: 50px;
+    background-color: rgb(2, 225, 255);
+    border: none;
+    margin-left: 440px;
+    color: white;
+    font-weight: 900;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-shadow: 0px 0px 10px 0px rgb(2, 225, 255);
+    padding: 10px;
+    /* margin: 10px; */
+    border-radius: 100px;
+}
+
+b{
+    font-size: 30px;
+    background-color: rgb(0, 255, 170);
+    padding: 10px;
+    border-radius: 30px;
+    margin-right: 1px;
+   
+}
+
+.abbr{
+    background-color: rgb(13, 227, 255);
+    padding: 10px;
+    border-radius: 100px;
+}
+
+li{
+    margin-left: -50px;
+    padding: 5px;
+    color: rgb(255, 175, 71);
+    cursor: not-allowed;
+    /* list-style-type: lower-roman; */
+}
+
+@media only screen and (max-width: 600px) {
+    button {
+margin-left: 7px;
+    }
+    b{
+        background-color: blue;
+    }
+    .abbr{
+        background-color: blue;
+        padding: 0px;
+
+
+    }
+    
+}
+
+body {
+    background-color: black;
+}
